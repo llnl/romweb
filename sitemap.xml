@@ -2,77 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://www.librom.net/index.html</loc>
-         <lastmod>2025-12-05</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://www.librom.net/about.html</loc>
-         <lastmod>2025-12-05</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://www.librom.net/building.html</loc>
-         <lastmod>2025-12-05</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://www.librom.net/ddps.html</loc>
-         <lastmod>2025-12-05</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://www.librom.net/download.html</loc>
-         <lastmod>2025-12-05</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://www.librom.net/examples.html</loc>
-         <lastmod>2025-12-05</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://www.librom.net/features.html</loc>
-         <lastmod>2025-12-05</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-12-24</lastmod>
+    </url>
+    <url>
+         <loc>https://www.librom.net/foundation_models.html</loc>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://www.librom.net/gallery.html</loc>
-         <lastmod>2025-12-05</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://www.librom.net/hlcs.html</loc>
-         <lastmod>2025-12-05</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://www.librom.net/news.html</loc>
-         <lastmod>2025-12-05</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://www.librom.net/poisson.html</loc>
-         <lastmod>2025-12-05</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://www.librom.net/poisson_greedy.html</loc>
-         <lastmod>2025-12-05</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://www.librom.net/publications.html</loc>
-         <lastmod>2025-12-05</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://www.librom.net/rom.html</loc>
-         <lastmod>2025-12-05</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://www.librom.net/scaleup.html</loc>
-         <lastmod>2025-12-05</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-12-24</lastmod>
     </url>
 </urlset>

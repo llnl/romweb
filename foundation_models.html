@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="/img/favicon.ico">
+        <meta name="keywords" content="Finite Element Library,Finite Element Code,Finite Element Method Library,Finite Element Method Code,Finite Element C++,Finite Element Method C++,Finite Element Library C++,Finite Element Code C++,FEM Code,FEM Library,FEM C++">
+        <meta name="google-site-verification" content="45K56TawSdzbgy-uDtfJdYwp7zaVdL3fIAGYt869wwU" />
+<!--	<title></title>  -->
+        <title>libROM - Data-driven Modeling Library</title>
+
+        <link href="./css/bootstrap-mfem.min.css" rel="stylesheet">
+        <link href="./css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link href="./css/highlight.css" rel="stylesheet">
+        <link href="./css/base.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="https://www.librom.net/">libROM</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            <!-- Main navigation -->
+            <ul class="nav navbar-nav">
+            
+            
+            
+            
+            
+                <li >
+                    <!-- Replace "nav_item.url|url" with "nav_item.url" for older mkdocs (before 1.0) -->
+                    <a href="features.html">Features</a>
+                </li>
+            
+            
+            
+            
+            
+                <li class="active">
+                    <!-- Replace "nav_item.url|url" with "nav_item.url" for older mkdocs (before 1.0) -->
+                    <a href="foundation_models.html">DDFEM</a>
+                </li>
+            
+            
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Examples <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        
+                            <li >
+                                 <a href="examples.html">Examples</a>
+                            </li>
+                        
+                    
+                        
+                            <li >
+                                 <a href="scaleup.html">ScaleupROM</a>
+                            </li>
+                        
+                    
+                    </ul>
+                </li>
+            
+            
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentation <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        
+                    
+                        
+                            <li >
+                                 <a href="building.html">Building libROM</a>
+                            </li>
+                        
+                    
+                        
+                            <li >
+                                 <a href="poisson.html">Poisson equation</a>
+                            </li>
+                        
+                    
+                        
+                            <li >
+                                 <a href="poisson_greedy.html">Greedy for Poisson</a>
+                            </li>
+                        
+                    
+                        
+                            <li >
+                                 <a href="publications.html">Publications</a>
+                            </li>
+                        
+                    
+                        
+                            <li >
+                                 <a href="about.html">About</a>
+                            </li>
+                        
+                    
+                    </ul>
+                </li>
+            
+            
+            
+            
+            
+                <li >
+                    <!-- Replace "nav_item.url|url" with "nav_item.url" for older mkdocs (before 1.0) -->
+                    <a href="gallery.html">Gallery</a>
+                </li>
+            
+            
+            
+            
+            
+                <li >
+                    <!-- Replace "nav_item.url|url" with "nav_item.url" for older mkdocs (before 1.0) -->
+                    <a href="download.html">Download</a>
+                </li>
+            
+            
+            
+            
+            
+                <li >
+                    <!-- Replace "nav_item.url|url" with "nav_item.url" for older mkdocs (before 1.0) -->
+                    <a href="ddps.html">DDPS</a>
+                </li>
+            
+            
+            
+            
+            
+                <li >
+                    <!-- Replace "nav_item.url|url" with "nav_item.url" for older mkdocs (before 1.0) -->
+                    <a href="hlcs.html">HLCS</a>
+                </li>
+            
+            
+            
+            </ul>
+
+            <!-- Search, Navigation and Repo links -->
+            <ul class="nav navbar-nav navbar-right">
+                
+                
+                <li>
+                    <a href="https://github.com/LLNL/libROM">
+                        
+                            <i class="fa fa-github-square"></i>
+                        
+                        GitHub
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+            <div class="col-md-3 visible-xs visible-sm"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#foundation-models-for-computational-science">Foundation Models for Computational Science</a></li>
+        
+            <li><a href="#motivation">Motivation</a></li>
+        
+            <li><a href="#what-is-a-foundation-model-in-computational-science">What Is a Foundation Model in Computational Science?</a></li>
+        
+            <li><a href="#challenges-of-building-foundation-models-in-computational-science">Challenges of Building Foundation Models in Computational Science</a></li>
+        
+            <li><a href="#the-data-driven-finite-element-method-dd-fem">The Data-Driven Finite Element Method (DD-FEM)</a></li>
+        
+            <li><a href="#implemented-dd-fem-realizations-through-librom-open-source-codes">Implemented DD-FEM Realizations through libROM open source codes</a></li>
+        
+            <li><a href="#why-dd-fem-qualifies-as-a-foundation-model-framework">Why DD-FEM Qualifies as a Foundation-Model Framework</a></li>
+        
+            <li><a href="#dd-fem-in-librom">DD-FEM in libROM</a></li>
+        
+            <li><a href="#references">References</a></li>
+        
+    
+    </ul>
+</div></div> <!-- toc on top on mobile -->
+            <div class="col-md-9" role="main">
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$']]}});
+</script>
+<script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_HTML">
+</script>
+
+<h1 id="foundation-models-for-computational-science">Foundation Models for Computational Science</h1>
+<h2 id="motivation">Motivation</h2>
+<p>Foundation models have transformed natural language processing and computer
+vision by enabling reusable, adaptable models that generalize across tasks and
+domains. Achieving an analogous capability in computational science is far more
+challenging due to the diversity of governing equations, geometries, physical
+regimes, and discretizations.</p>
+<p>libROM team addresses this challenge through the <strong>Data-Driven Finite Element Method
+(DD-FEM)</strong> — a <em>general architectural framework</em> that combines data-driven local
+modeling with classical finite-element-style global assembly. Importantly,
+DD-FEM is not a conceptual proposal: it has been <strong>realized in multiple
+production-quality algorithms</strong>, each demonstrated through published numerical
+examples.</p>
+<hr />
+<h2 id="what-is-a-foundation-model-in-computational-science">What Is a Foundation Model in Computational Science?</h2>
+<p>In computational science, a foundation model must satisfy requirements beyond
+those in data-centric ML fields. In particular, it must:</p>
+<ul>
+<li>generalize across <em>geometries, domains, and boundary conditions</em>,</li>
+<li>be reusable without retraining for every new global configuration,</li>
+<li>enforce governing equations and physical constraints explicitly,</li>
+<li>scale to large systems using data from smaller subsystems,</li>
+<li>admit mathematical analysis (stability, error bounds, convergence).</li>
+</ul>
+<h3 id="inspiration-from-classical-foundational-methods">Inspiration from Classical Foundational Methods</h3>
+<p>Our definition of a foundation model for computational science is intentionally
+inspired by <strong>classical foundation methods</strong> that have underpinned scientific
+computing for decades, most notably the <strong>finite element method (FEM)</strong> and the
+<strong>finite volume method (FVM)</strong>.</p>
+<p>These methods are considered foundational not because they solve a single
+problem optimally, but because they provide a <strong>general, reusable, and
+composable framework</strong> applicable across a broad range of governing equations,
+geometries, and physical regimes. FEM and FVM achieve this through:</p>
+<ul>
+<li>local representations that are independent of global problem size,</li>
+<li>systematic assembly into large-scale global systems,</li>
+<li>explicit enforcement of conservation laws and governing equations,</li>
+<li>extensibility across domains without redesigning the core methodology.</li>
+</ul>
+<p>In this sense, FEM and FVM already embody many of the characteristics now
+associated with “foundation models”: generality, reusability, scalability, and
+scientific rigor.</p>
+<p>Our definition of foundation models for computational science builds directly on
+these principles. Rather than viewing foundation models as purely data-driven
+artifacts, we frame them as <strong>architectural frameworks</strong> that integrate learning
+into the same local-to-global, physics-constrained structure that has made FEM
+and FVM foundational to scientific computing.</p>
+<p align="center">
+  <img src="img/FEMtoFoundation2.png" width="85%" alt="From classical foundation methods to data-driven foundation models via DD-FEM">
+</p>
+
+<hr />
+<h2 id="challenges-of-building-foundation-models-in-computational-science">Challenges of Building Foundation Models in Computational Science</h2>
+<p>Developing foundatin models in computational science is fundamentally harder
+than in natural language processing or vision. The <em>Defining Foundation Models
+for Computational Science</em> position paper [1] outlines several structural obstacles
+that must be addressed before truly general, reusable scientific foundation
+models can be achieved. </p>
+<h3 id="massive-data-point-size"><strong>Massive Data Point Size</strong></h3>
+<p>In NLP or computer vision, individual data points (tokens, image patches) are
+small and easily batched for training. In contrast, a single high-fidelity
+scientific simulation snapshot can contain millions to trillions of degrees of
+freedom. This:</p>
+<ul>
+<li>creates huge memory and compute burdens,</li>
+<li>limits batch sizes,</li>
+<li>slows convergence of training, and</li>
+<li>makes overfitting more likely with limited data. </li>
+</ul>
+<p align="center">
+  <img src="img/Challenge2.png" width="65%" alt="The image describing the massive data point size in computational science.">
+</p>
+
+<h3 id="expensive-fine-tuning-across-tasks"><strong>Expensive Fine-Tuning Across Tasks</strong></h3>
+<p>Foundation models should adapt to new tasks with minimal additional training.
+In computational science, however, downstream problems frequently differ in PDE
+type, geometry, mesh resolution, boundary conditions, or time-dependent
+behavior. Fine-tuning on such distinct tasks can be computationally expensive,
+undermining reusability and scalability. </p>
+<p align="center">
+  <img src="img/ExpensiveFineTuning2.png" width="95%" alt="The image describing expensive fine tuning">
+</p>
+
+<h3 id="data-heterogeneity"><strong>Data Heterogeneity</strong></h3>
+<p>Scientific systems involve a wide range of data types (scalars, vectors,
+tensors), multi-physics couplings, and time dependencies. Designing a single
+architecture that meaningfully integrates such heterogeneous data across
+domains is an open research challenge. </p>
+<p align="center">
+  <img src="img/DataHeterogeneity2.png" width="95%" alt="The image describing data heterogeneity">
+</p>
+
+<h3 id="lack-of-standardized-datasets"><strong>Lack of Standardized Datasets</strong></h3>
+<p>Unlike NLP and vision, large standardized datasets covering multiple physics
+domains do not exist. The absence of shared, high-quality datasets hampers
+large-scale pretraining and makes it hard to benchmark and compare scientific
+foundation models. </p>
+<p align="center">
+  <img src="img/LackOfStandardizedDatasets2.png" width="95%" alt="The image describing the lack of standardized datasets">
+</p>
+
+<h3 id="mesh-and-geometry-dependence"><strong>Mesh and Geometry Dependence</strong></h3>
+<p>Solutions in scientific computing depend inherently on the computational mesh
+and domain geometry. Variations in mesh resolution, topology, or element shapes
+can break naive generalization, because most learned models do not naturally
+transfer across discretizations. </p>
+<h3 id="physics-informed-constraints"><strong>Physics-Informed Constraints</strong></h3>
+<p>Scientific systems obey conservation laws, symmetries, and boundary conditions.
+Enforcing these constraints in learned models without degrading generality is a
+major open problem. Many ML models either ignore physical laws or hard-code
+specific physics, limiting flexibility. </p>
+<h3 id="trust-interpretability-and-scientific-validity"><strong>Trust, Interpretability, and Scientific Validity</strong></h3>
+<p>For adoption in engineering and science, models must be interpretable,
+verifiable, and physically consistent. Black-box neural models that violate
+conservation or produce nonphysical results are difficult to trust in
+high-stakes applications. </p>
+<h3 id="multiscale-and-long-time-behavior"><strong>Multiscale and Long-Time Behavior</strong></h3>
+<p>Real scientific systems often involve multiple spatial and temporal scales
+(e.g., turbulence, fracture, phase change). Capturing long-time dynamics and
+multi-scale interactions in a single model — especially without retraining —
+remains a critical open challenge. </p>
+<hr />
+<p>These challenges suggest that foundation models in computational science cannot
+be constructed as purely data-driven, end-to-end surrogates. Instead, they
+require an architectural framework that integrates learning with classical
+numerical structure, supports local training with global reuse, and preserves
+scientific rigor.</p>
+<p>The <strong>Data-Driven Finite Element Method (DD-FEM)</strong> provides such a framework.</p>
+<hr />
+<h2 id="the-data-driven-finite-element-method-dd-fem">The Data-Driven Finite Element Method (DD-FEM)</h2>
+<h3 id="core-principle">Core Principle</h3>
+<p>DD-FEM replaces classical finite-element shape functions with <strong>learned local
+models</strong> trained on component-level data, while retaining:</p>
+<ol>
+<li><strong>Local training</strong> on small subdomains or components  </li>
+<li><strong>Global assembly</strong> via domain decomposition or finite-element-style coupling  </li>
+<li><strong>Explicit solution of governing equations</strong>  </li>
+<li><strong>Reuse of pretrained components</strong> across unseen global systems  </li>
+</ol>
+<p>This mirrors the role of basis functions in FEM, but with learned representations
+that can capture multiscale, nonlinear, and parameterized physics more
+efficiently.</p>
+<hr />
+<h2 id="implemented-dd-fem-realizations-through-librom-open-source-codes">Implemented DD-FEM Realizations through libROM open source codes</h2>
+<p>DD-FEM is a <em>framework</em>, not a single algorithm. libROM contains multiple,
+independently developed realizations that instantiate this framework in
+different settings.</p>
+<h3 id="1-scaleuprom-projection-based-dd-fem-with-dg-assembly">1. ScaleUpROM: Projection-Based DD-FEM with DG Assembly</h3>
+<p><strong>ScaleUpROM</strong> is a DD-FEM realization using projection-based reduced order
+models coupled through <strong>discontinuous Galerkin domain decomposition (DG-DD)</strong>.</p>
+<p>Key characteristics:
+- Local ROMs trained only on small components
+- Global systems assembled without retraining
+- Robust spatial extrapolation (“train small, model big”)
+- Physics-constrained solves at all scales</p>
+<p>ScaleUpROM has been demonstrated on Poisson, Stokes, and Navier–Stokes problems,
+achieving order-of-magnitude speedups with percent-level accuracy.</p>
+<p>See also: <a href="scaleup.html">ScaleUpROM examples</a>.</p>
+<hr />
+<h3 id="2-component-wise-reduced-order-models-for-design-and-optimization">2. Component-Wise Reduced Order Models for Design and Optimization</h3>
+<p>Component-wise ROMs represent an early and foundational instantiation of DD-FEM.
+In these methods, reduced operators are learned on reusable components and
+assembled to form global systems.</p>
+<p>Representative applications include:
+- Lattice-type structure design optimization
+- Compliance minimization and stress-constrained topology optimization
+- Static condensation-based assembly</p>
+<p>These methods demonstrate:
+- reusable offline training across many design instances,
+- up to <strong>1000× speedup</strong> over full FEM,
+- rigorous error bounds and sensitivity analysis.</p>
+<p>See:
+- Component-wise ROM lattice optimization 
+- Stress-constrained topology optimization with component ROMs </p>
+<hr />
+<h3 id="3-dd-lspg-nonlinear-algebraic-dd-fem">3. DD-LSPG: Nonlinear Algebraic DD-FEM</h3>
+<p>DD-LSPG extends DD-FEM to <strong>nonlinear systems</strong> using least-squares
+Petrov–Galerkin projection at the subdomain level.</p>
+<p>Distinctive features:
+- algebraic (not geometric) domain decomposition,
+- independent local bases for interior and interfaces,
+- strong or weak compatibility enforcement,
+- a priori and a posteriori error bounds.</p>
+<p>This realization shows that DD-FEM applies beyond linear PDEs and FEM-style
+weak forms.</p>
+<p>Reference:
+- Domain-decomposition LSPG ROMs </p>
+<hr />
+<h3 id="4-nonlinear-manifold-dd-fem-dd-nm-rom">4. Nonlinear-Manifold DD-FEM (DD-NM-ROM)</h3>
+<p>DD-FEM also supports <strong>nonlinear manifold representations</strong>, where local bases
+are replaced by learned nonlinear maps (e.g., autoencoders).</p>
+<p>In DD-NM-ROM:
+- nonlinear manifolds are trained independently on subdomains,
+- coupling is enforced through algebraic DD constraints,
+- training cost scales with component size, not global size,
+- hyper-reduction enables efficient nonlinear evaluation.</p>
+<p>These methods demonstrate:
+- superior accuracy for problems with slow Kolmogorov n-width decay,
+- stable extrapolation from small to large domains,
+- strong theoretical guarantees.</p>
+<p>References:
+- DD nonlinear-manifold ROM with theory and error bounds 
+- Scalable DD-NM-ROM for dynamical systems </p>
+<hr />
+<h2 id="why-dd-fem-qualifies-as-a-foundation-model-framework">Why DD-FEM Qualifies as a Foundation-Model Framework</h2>
+<p>Across all realizations, DD-FEM exhibits the defining traits of foundation
+models in computational science:</p>
+<ul>
+<li><strong>Reusability</strong>: pretrained components apply across many global systems  </li>
+<li><strong>Generalization</strong>: extrapolation in domain size, geometry, and configuration  </li>
+<li><strong>Scalability</strong>: training cost decoupled from global problem size  </li>
+<li><strong>Scientific rigor</strong>: governing equations enforced explicitly  </li>
+<li><strong>Extensibility</strong>: linear, nonlinear, projection-based, and manifold-based models  </li>
+</ul>
+<p>DD-FEM plays the same foundational role for data-driven simulation that FEM
+plays for classical numerical analysis.</p>
+<hr />
+<h2 id="dd-fem-in-librom">DD-FEM in libROM</h2>
+<p>libROM open-source codes serve as an <strong>open research platform</strong> for DD-FEM, supporting:</p>
+<ul>
+<li>component-level training workflows,</li>
+<li>multiple assembly strategies (DG, static condensation, residual minimization),</li>
+<li>linear and nonlinear reduced representations,</li>
+<li>integration with MFEM and large-scale HPC solvers.</li>
+</ul>
+<p>Concrete numerical demonstrations are available throughout the
+<a href="examples.html">Examples</a> and <a href="scaleup.html">ScaleUpROM</a> pages.</p>
+<hr />
+<h2 id="references">References</h2>
+<p>[1] Y. Choi et al., <em>Defining Foundation Models for Computational Science: A Call for Clarity and Rigor</em>, arXiv:2505.22904, 2025.</p>
+<p>[2] S. McBane and Y. Choi, <em>Component-wise reduced order model lattice-type structure design</em>,  Comput. Methods Appl. Mech. Engrg., 381 (2021).</p>
+<p>[3] S. McBane, Y. Choi, and K. Willcox,  <em>Stress-constrained topology optimization of lattice-like structures using component-wise reduced order models</em>, Comput. Methods Appl. Mech. Engrg., 400 (2022).</p>
+<p>[4] C. Hoang, Y. Choi, and K. Carlberg, <em>Domain-decomposition least-squares Petrov–Galerkin nonlinear model reduction</em>, Comput. Methods Appl. Mech. Engrg., 384 (2021).</p>
+<p>[5] A. N. Diaz and Y. Choi, <em>A fast and accurate domain decomposition nonlinear manifold reduced order model</em>, Comput. Methods Appl. Mech. Engrg., 425 (2024).</p>
+<p>[6] S. W. Chung et al., <em>Train small, model big: Scalable physics simulators via reduced order modeling and domain decomposition</em>, Comput. Methods Appl. Mech. Engrg., 427 (2024).</p>
+<p>[7] S. W. Chung et al., <em>Scaled-up prediction of steady Navier-Stokes equation with component reduced order modeling</em>, arXiv:2410.21534, 2025.  </p></div>
+            <div class="col-md-3 hidden-xs hidden-sm"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#foundation-models-for-computational-science">Foundation Models for Computational Science</a></li>
+        
+            <li><a href="#motivation">Motivation</a></li>
+        
+            <li><a href="#what-is-a-foundation-model-in-computational-science">What Is a Foundation Model in Computational Science?</a></li>
+        
+            <li><a href="#challenges-of-building-foundation-models-in-computational-science">Challenges of Building Foundation Models in Computational Science</a></li>
+        
+            <li><a href="#the-data-driven-finite-element-method-dd-fem">The Data-Driven Finite Element Method (DD-FEM)</a></li>
+        
+            <li><a href="#implemented-dd-fem-realizations-through-librom-open-source-codes">Implemented DD-FEM Realizations through libROM open source codes</a></li>
+        
+            <li><a href="#why-dd-fem-qualifies-as-a-foundation-model-framework">Why DD-FEM Qualifies as a Foundation-Model Framework</a></li>
+        
+            <li><a href="#dd-fem-in-librom">DD-FEM in libROM</a></li>
+        
+            <li><a href="#references">References</a></li>
+        
+    
+    </ul>
+</div></div>
+
+            
+        </div>
+
+        <footer class="footer">
+           <div class="container">
+              <p class="text-muted alignright">LLNL-WEB-827021</p>
+              <p class="text-muted alignleft">
+                  Developed by the <a href="/about.html">ROM team</a> at
+                  <a href="http://computation.llnl.gov/casc/">CASC</a>,
+                  <a href="https://www.llnl.gov/">LLNL</a>, and based on 
+                  <a href="https://mfem.org/">MFEM</a> webpage template.</p>
+           </div>
+        </footer>
+
+        <script src="./js/jquery-1.10.2.min.js"></script>
+        <script src="./js/bootstrap-3.0.3.min.js"></script>
+        <script src="./js/highlight.pack.js"></script>
+        <script src="./js/base.js"></script>
+        <script src="./js/retina.min.js"></script>
+        <script src="search/main.js"></script>
+    </body>
+</html>
