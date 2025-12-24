@@ -15,6 +15,7 @@ remote_name: origin
 nav:
 - Home: index.md
 - Features: features.md
+- DDFEM: foundation_models.md
 - Examples:
   - 'Examples': examples.md
   - 'ScaleupROM': scaleup.md
