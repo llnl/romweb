@@ -35,6 +35,10 @@ those in data-centric ML fields. In particular, it must:
 - scale to large systems using data from smaller subsystems,
 - admit mathematical analysis (stability, error bounds, convergence).
 
+<p align="center">
+  <img src="img/foundationModelsSchematicFigure.png" width="85%" alt="Schematic figure showing foundation models for computational science">
+</p>
+
 ### Inspiration from Classical Foundational Methods
 
 Our definition of a foundation model for computational science is intentionally
@@ -128,10 +132,19 @@ foundation models.
 
 ### **Mesh and Geometry Dependence**
 
-Solutions in scientific computing depend inherently on the computational mesh
-and domain geometry. Variations in mesh resolution, topology, or element shapes
-can break naive generalization, because most learned models do not naturally
-transfer across discretizations. 
+Scientific simulations depend intrinsically on the computational mesh and domain
+geometry. Changes in mesh resolution, element type, topology, or geometry can
+invalidate naive generalization because many learned models are tied to a fixed
+discretization.
+
+Crucially, this dependence also **forces expensive fine-tuning**: as geometry or mesh
+changes, reuse of a monolithic model is often impossible, making large-scale retraining
+(or heavy fine-tuning) unavoidable. This breaks scalability and undermines the
+reusability expected of foundation models.
+
+<p align="center">
+  <img src="img/GeometryDependence.png" width="95%" alt="The image describing the challenge of geometry dependence">
+</p>
 
 ### **Physics-Informed Constraints**
 
