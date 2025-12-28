@@ -252,6 +252,10 @@ those in data-centric ML fields. In particular, it must:</p>
 <li>scale to large systems using data from smaller subsystems,</li>
 <li>admit mathematical analysis (stability, error bounds, convergence).</li>
 </ul>
+<p align="center">
+  <img src="img/foundationModelsSchematicFigure.png" width="85%" alt="Schematic figure showing foundation models for computational science">
+</p>
+
 <h3 id="inspiration-from-classical-foundational-methods">Inspiration from Classical Foundational Methods</h3>
 <p>Our definition of a foundation model for computational science is intentionally
 inspired by <strong>classical foundation methods</strong> that have underpinned scientific
@@ -330,10 +334,18 @@ foundation models. </p>
 </p>
 
 <h3 id="mesh-and-geometry-dependence"><strong>Mesh and Geometry Dependence</strong></h3>
-<p>Solutions in scientific computing depend inherently on the computational mesh
-and domain geometry. Variations in mesh resolution, topology, or element shapes
-can break naive generalization, because most learned models do not naturally
-transfer across discretizations. </p>
+<p>Scientific simulations depend intrinsically on the computational mesh and domain
+geometry. Changes in mesh resolution, element type, topology, or geometry can
+invalidate naive generalization because many learned models are tied to a fixed
+discretization.</p>
+<p>Crucially, this dependence also <strong>forces expensive fine-tuning</strong>: as geometry or mesh
+changes, reuse of a monolithic model is often impossible, making large-scale retraining
+(or heavy fine-tuning) unavoidable. This breaks scalability and undermines the
+reusability expected of foundation models.</p>
+<p align="center">
+  <img src="img/GeometryDependence.png" width="95%" alt="The image describing the challenge of geometry dependence">
+</p>
+
 <h3 id="physics-informed-constraints"><strong>Physics-Informed Constraints</strong></h3>
 <p>Scientific systems obey conservation laws, symmetries, and boundary conditions.
 Enforcing these constraints in learned models without degrading generality is a
