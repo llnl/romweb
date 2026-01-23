@@ -8,21 +8,21 @@
 # DDPS Webinar (_in California time_)
 Join our engaging DDPS (Data-Driven Physical Simulations) seminars organized by the libROM team at Lawrence Livermore National Laboratory ( https://www.librom.net/ddps.html ). Held weekly—or occasionally bi-weekly on Thursdays or Fridays—these webinars spotlight how emerging machine learning and AI methods are transforming computational science and physical simulation. Our sessions cover cutting-edge topics such as deep learning for simulation, generative models, and innovative data assimilation techniques, alongside traditional modeling and advanced computational approaches applied to domains like fluid dynamics, plasma physics, and beyond. Whether you're interested in presenting a talk, recommending a speaker, or joining our vibrant DDPS community, please contact choi15@llnl.gov or cheung26@llnl.gov for further details or to be added to our email list.
 
-## Scheduled Talks in 2025
-When           | Speaker        |  Institution      | Title                         | WebEx
--------------- | -------------- | ----------------- | ----------------------------- | -----
-Dec 18 11am-12pm | [Michael Shields](https://engineering.jhu.edu/faculty/michael-shields/) | Johns Hopkins University | The Nexus of Machine Learning, Physics-based Modeling, and Uncertainty Quantification | [link](https://llnlfed.webex.com/llnlfed/j.php?MTID=mf2f14dfa11b37563c214b470127c7a3f)
-
 ## Scheduled Talks in 2026
 When           | Speaker        |  Institution      | Title                         | WebEx
 -------------- | -------------- | ----------------- | ----------------------------- | -----
-January 22 | [Balint Kaszas](https://profiles.stanford.edu/balint-kaszas) | Stanford University | TBD | [link]()
-January 29 | [Su Jiang](https://cee.engineering.cmu.edu/directory/bios/jiang-su.html) | Carnegie Mellon University | TBD | [link]()
+February 19th 11am-12pm | [Su Jiang](https://cee.engineering.cmu.edu/directory/bios/jiang-su.html) | Carnegie Mellon University | TBD | [link]()
 <!--- TBD | [Karen Veroy-Grepl](https://www.tue.nl/en/research/researchers/karen-veroy-grepl/) | Eindhoven University | TBD | [link]() -->
+
+## Past Talks in 2026
+Date      | Speaker        |  Institution      | Title                         | YouTube
+---------- | -------------- | ----------------- | ----------------------------- | ---------
+January 22nd | [Balint Kaszas](https://profiles.stanford.edu/balint-kaszas) | Stanford University | Invariant Manifold-Based Nonlinear Model Reduction for Fluid Dynamics | [link]()
 
 ## Past Talks in 2025
 Date      | Speaker        |  Institution      | Title                         | YouTube
 ---------- | -------------- | ----------------- | ----------------------------- | ---------
+Dec 18th | [Michael Shields](https://engineering.jhu.edu/faculty/michael-shields/) | Johns Hopkins University | The Nexus of Machine Learning, Physics-based Modeling, and Uncertainty Quantification | [link]()
 Oct 30th | [Nan Chen](https://people.math.wisc.edu/~nchen29/) | University of Wisconsin-Madison | Bridging Models and Data: From Traditional Assimilation to Bridging Model Hierarchies, Causal Inference, and Digital Twins | [link]()
 Oct 23rd | [Ulisses M. Braga-Neto](https://braganeto.engr.tamu.edu) | TAMU | Scientific Machine Learning: From Physics-Informed to Data-Driven | [link]()
 Oct 2nd | [Youngsoo Choi](https://people.llnl.gov/choi15) | LLNL | Defining Foundation Models for Computational Science: Toward Clarity and Rigor | [link](https://www.youtube.com/watch?v=pJE6R2QH1ss)
