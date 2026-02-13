@@ -12,19 +12,21 @@ Join our engaging DDPS (Data-Driven Physical Simulations) seminars organized by 
 When           | Speaker        |  Institution      | Title                         | WebEx
 -------------- | -------------- | ----------------- | ----------------------------- | -----
 February 19th 11am-12pm | [Su Jiang](https://cee.engineering.cmu.edu/directory/bios/jiang-su.html) | Carnegie Mellon University | TBD | [link]()
+February 26th 11am-12pm | [Sebastian Ares de Parga Regalado](https://scholar.google.com/citations?user=B8SG5UAAAAAJ&hl=en) | International Centre for Numerical Methods in Engineering | TBD | [link]()
+<!--- TBD | []() | | TBD | [link]() -->
 <!--- TBD | [Karen Veroy-Grepl](https://www.tue.nl/en/research/researchers/karen-veroy-grepl/) | Eindhoven University | TBD | [link]() -->
 
 ## Past Talks in 2026
 Date      | Speaker        |  Institution      | Title                         | YouTube
 ---------- | -------------- | ----------------- | ----------------------------- | ---------
-January 22nd | [Balint Kaszas](https://profiles.stanford.edu/balint-kaszas) | Stanford University | Invariant Manifold-Based Nonlinear Model Reduction for Fluid Dynamics | [link]()
+January 22nd | [Balint Kaszas](https://profiles.stanford.edu/balint-kaszas) | Stanford University | Invariant Manifold-Based Nonlinear Model Reduction for Fluid Dynamics | [link](https://youtu.be/n5Tcjb5Kthk)
 
 ## Past Talks in 2025
 Date      | Speaker        |  Institution      | Title                         | YouTube
 ---------- | -------------- | ----------------- | ----------------------------- | ---------
-Dec 18th | [Michael Shields](https://engineering.jhu.edu/faculty/michael-shields/) | Johns Hopkins University | The Nexus of Machine Learning, Physics-based Modeling, and Uncertainty Quantification | [link]()
-Oct 30th | [Nan Chen](https://people.math.wisc.edu/~nchen29/) | University of Wisconsin-Madison | Bridging Models and Data: From Traditional Assimilation to Bridging Model Hierarchies, Causal Inference, and Digital Twins | [link]()
-Oct 23rd | [Ulisses M. Braga-Neto](https://braganeto.engr.tamu.edu) | TAMU | Scientific Machine Learning: From Physics-Informed to Data-Driven | [link]()
+Dec 18th | [Michael Shields](https://engineering.jhu.edu/faculty/michael-shields/) | Johns Hopkins University | The Nexus of Machine Learning, Physics-based Modeling, and Uncertainty Quantification | [link](https://youtu.be/0oWFK8Hlom8)
+Oct 30th | [Nan Chen](https://people.math.wisc.edu/~nchen29/) | University of Wisconsin-Madison | Bridging Models and Data: From Traditional Assimilation to Bridging Model Hierarchies, Causal Inference, and Digital Twins | [link](https://youtu.be/liWUlZsbIC4)
+Oct 23rd | [Ulisses M. Braga-Neto](https://braganeto.engr.tamu.edu) | TAMU | Scientific Machine Learning: From Physics-Informed to Data-Driven | [link](https://www.youtube.com/watch?v=QYdI5wuSlwY)
 Oct 2nd | [Youngsoo Choi](https://people.llnl.gov/choi15) | LLNL | Defining Foundation Models for Computational Science: Toward Clarity and Rigor | [link](https://www.youtube.com/watch?v=pJE6R2QH1ss)
 Aug 22th | [Siddhartha Mishra](https://camlab.ethz.ch/the-group/group-head.html) | ETH Zurich | AI for data-driven simulation in Physics | [link](https://youtu.be/DQtVhjGjAmA)
 Aug 15th | [Jingwei Hu](https://jingweihu-math.github.io/webpage/) | University of Washington | Structure-Preserving Particle Method for Collisional Plasmas | [link](https://youtu.be/arPwGVsr2JE?si=ng1Kn8WplSQHW-gP)
