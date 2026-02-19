@@ -12,7 +12,7 @@ Join our engaging Data-Driven Physical Simulations (DDPS) seminars organized by 
 When           | Speaker        |  Institution      | Title                         | WebEx
 -------------- | -------------- | ----------------- | ----------------------------- | -----
 Feb 19 11am-12pm | [Su Jiang](https://cee.engineering.cmu.edu/directory/bios/jiang-su.html) | Carnegie Mellon University | Generative Models for Data Assimilation in Subsurface Flow | [link](https://llnlfed.webex.com/llnlfed/j.php?MTID=md51faf9d53e0d44dccbf45de50be51d8)
-Feb 26 11am-12pm | [Sebastian Ares de Parga Regalado](https://scholar.google.com/citations?user=B8SG5UAAAAAJ&hl=en) | International Centre for Numerical Methods in Engineering | TBD | [link]()
+Feb 26 11am-12pm | [Sebastian Ares de Parga Regalado](https://scholar.google.com/citations?user=B8SG5UAAAAAJ&hl=en) | International Centre for Numerical Methods in Engineering | Nonlinear Projection-Based Model Order Reduction with Machine Learning Regression | [link](https://llnlfed.webex.com/llnlfed/j.php?MTID=md69a2dbe0d706ba1b68bae3cdca371f1)
 <!--- TBD | []() | | TBD | [link]() -->
 <!--- TBD | [Karen Veroy-Grepl](https://www.tue.nl/en/research/researchers/karen-veroy-grepl/) | Eindhoven University | TBD | [link]() -->
 
