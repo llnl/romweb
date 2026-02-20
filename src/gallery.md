@@ -153,9 +153,10 @@ and its reduced basis by [libROM](https://github.com/LLNL/libROM). Click
 image above for zoomed-in picture.  Visualization with
 [MATLAB](https://www.mathworks.com/).*
 
+
 ----
 
-<img src="../img/gallery/Re25.rom.vel1.png" width="230"  >
+[![](img/gallery/Re25.rom.vel1.png)](img/gallery/Re25.rom.vel1.png)
 
 
 *2D steady Navier-Stokes porous media problem solved by
