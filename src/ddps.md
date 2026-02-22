@@ -11,14 +11,15 @@ Join our engaging Data-Driven Physical Simulations (DDPS) seminars organized by 
 ## Scheduled Talks in 2026 (_in California time_)
 When           | Speaker        |  Institution      | Title                         | WebEx
 -------------- | -------------- | ----------------- | ----------------------------- | -----
-Feb 19 11am-12pm | [Su Jiang](https://cee.engineering.cmu.edu/directory/bios/jiang-su.html) | Carnegie Mellon University | Generative Models for Data Assimilation in Subsurface Flow | [link](https://llnlfed.webex.com/llnlfed/j.php?MTID=md51faf9d53e0d44dccbf45de50be51d8)
 Feb 26 11am-12pm | [Sebastian Ares de Parga Regalado](https://scholar.google.com/citations?user=B8SG5UAAAAAJ&hl=en) | International Centre for Numerical Methods in Engineering | Nonlinear Projection-Based Model Order Reduction with Machine Learning Regression | [link](https://llnlfed.webex.com/llnlfed/j.php?MTID=md69a2dbe0d706ba1b68bae3cdca371f1)
+May 14 11am-12pm | [Youzuo Lin](https://datascience.unc.edu/person/youzuo-lin/) | The University of North Carolina at Chapel Hill | TBD | [link](https://llnlfed.webex.com/llnlfed/j.php?MTID=m3568bfd31622d3a9b72e22ba7f883aeb) -->
 <!--- TBD | []() | | TBD | [link]() -->
 <!--- TBD | [Karen Veroy-Grepl](https://www.tue.nl/en/research/researchers/karen-veroy-grepl/) | Eindhoven University | TBD | [link]() -->
 
 ## Past Talks in 2026
 Date      | Speaker        |  Institution      | Title                         | YouTube
 ---------- | -------------- | ----------------- | ----------------------------- | ---------
+Feb 19 | [Su Jiang](https://cee.engineering.cmu.edu/directory/bios/jiang-su.html) | Carnegie Mellon University | Generative Models for Data Assimilation in Subsurface Flow | [link]()
 Jan 22 | [Balint Kaszas](https://profiles.stanford.edu/balint-kaszas) | Stanford University | Invariant Manifold-Based Nonlinear Model Reduction for Fluid Dynamics | [link](https://youtu.be/n5Tcjb5Kthk)
 
 ## Past Talks in 2025
