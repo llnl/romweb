@@ -20,7 +20,7 @@ May 14 11am-12pm | [Youzuo Lin](https://datascience.unc.edu/person/youzuo-lin/) 
 ## Past Talks in 2026
 Date      | Speaker        |  Institution      | Title                         | YouTube
 ---------- | -------------- | ----------------- | ----------------------------- | ---------
-Feb 19 | [Su Jiang](https://cee.engineering.cmu.edu/directory/bios/jiang-su.html) | Carnegie Mellon University | Generative Models for Data Assimilation in Subsurface Flow | [link]()
+Feb 19 | [Su Jiang](https://cee.engineering.cmu.edu/directory/bios/jiang-su.html) | Carnegie Mellon University | Generative Models for Data Assimilation in Subsurface Flow | [link](https://youtu.be/ZpcP3bnJzxc?si=i3A9k-vgNeYzObNh)
 Jan 22 | [Balint Kaszas](https://profiles.stanford.edu/balint-kaszas) | Stanford University | Invariant Manifold-Based Nonlinear Model Reduction for Fluid Dynamics | [link](https://youtu.be/n5Tcjb5Kthk)
 
 ## Past Talks in 2025
