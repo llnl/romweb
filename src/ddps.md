@@ -12,7 +12,7 @@ Join our engaging Data-Driven Physical Simulations (DDPS) seminars organized by 
 When           | Speaker        |  Institution      | Title                         | WebEx
 -------------- | -------------- | ----------------- | ----------------------------- | -----
 Feb 26 11am-12pm | [Sebastian Ares de Parga Regalado](https://scholar.google.com/citations?user=B8SG5UAAAAAJ&hl=en) | International Centre for Numerical Methods in Engineering | Nonlinear Projection-Based Model Order Reduction with Machine Learning Regression | [link](https://llnlfed.webex.com/llnlfed/j.php?MTID=md69a2dbe0d706ba1b68bae3cdca371f1)
-May 7 11am-12pm | [Simon Mak](https://sites.google.com/view/simonmak/home) | Duke University | TBD | [link](https://llnlfed.webex.com/llnlfed/j.php?MTID=m1e0fb6799e36ce84bdebbcf63243117d)
+May 7 11am-12pm | [Simon Mak](https://sites.google.com/view/simonmak/home) | Duke University | Advances in ML surrogate modeling for complex physical simulations | [link](https://llnlfed.webex.com/llnlfed/j.php?MTID=m1e0fb6799e36ce84bdebbcf63243117d)
 May 14 11am-12pm | [Youzuo Lin](https://datascience.unc.edu/person/youzuo-lin/) | The University of North Carolina at Chapel Hill | TBD | [link](https://llnlfed.webex.com/llnlfed/j.php?MTID=m3568bfd31622d3a9b72e22ba7f883aeb)
 <!--- TBD | []() | | TBD | [link]() -->
 <!--- TBD | [Karen Veroy-Grepl](https://www.tue.nl/en/research/researchers/karen-veroy-grepl/) | Eindhoven University | TBD | [link]() -->
