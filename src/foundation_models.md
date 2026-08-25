@@ -20,14 +20,16 @@ libROM team addresses this challenge through the **Data-Driven Finite Element Me
 modeling with classical finite-element-style global assembly. Importantly,
 DD-FEM is not a conceptual proposal: it has been **realized in multiple
 production-quality algorithms**, each demonstrated through published numerical
-examples.
+examples (see [Defining Foundation Models](https://arxiv.org/pdf/2505.22904)).
 
 ---
 
 ## What Is a Foundation Model in Computational Science?
 
 In computational science, a foundation model must satisfy requirements beyond
-those in data-centric ML fields. In particular, it must:
+those in data-centric ML fields (see [Rigor Over
+Hype](https://ieeexplore.ieee.org/abstract/document/11527115)). In particular,
+it must:
 
 - generalize across *geometries, domains, and boundary conditions*,
 - be reusable without retraining for every new global configuration,
