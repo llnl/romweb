@@ -1,6 +1,7 @@
 # Publications
 
 #### 2026
+  1. Anderson, W., Yoo, J., Stephany, R., Ricketson, L.F., Hu, J. and Choi, Y. [CABLE: Convex Affine Blends of Latent Experts for parametric reduced-order modeling](https://hal.science/hal-05736441v1/document). *HAL-05736441*, **2026**
   1. Park, J.S.R., Hashim, A.H., Cheung, S.W., Choi, Y. and Shin, Y. [WGFINNs: Weak formulation-based GENERIC formalism informed neural networks](https://www.sciencedirect.com/science/article/pii/S004578252600486X). *Computer Methods in Applied Mechanics and Engineering*, 461, p.119213 **2026**
   1. Anderson, W., Chung, S.W., Stephany, R. and Choi, Y. [mLaSDI: Multi-stage latent space dynamics identification](https://www.sciencedirect.com/science/article/pii/S0045782526004469). *Computer Methods in Applied Mechanics and Engineering*, 461, p.119173 **2026**
   1. Kadeethum, T., Ballarin, F., Choi, Y. and Lee, S. [Online Spectral Deflation for State Constrained Optimal Control Problems](https://arxiv.org/pdf/2606.17971). *arXiv preprint* arXiv:2606.17971 **2026**
