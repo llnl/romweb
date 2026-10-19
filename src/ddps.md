@@ -49,7 +49,7 @@ Date      | Speaker        |  Institution      | Title                         |
 ---------- | -------------- | ----------------- | ----------------------------- | ---------
 May 14 | [Youzuo Lin](https://datascience.unc.edu/person/youzuo-lin/) | The University of North Carolina at Chapel Hill | AI for Scientific Discovery: Learning Beyond Data in Computational Wave Imaging | [link](https://youtu.be/m6BaFCOlnMs?si=NOB5COYzu2Uhals0)
 May 7 | [Simon Mak](https://sites.google.com/view/simonmak/home) | Duke University | Advances in ML surrogate modeling for complex physical simulations | [link](https://youtu.be/PDbU3smguZY?si=XSj2hRXzFqLEnuXC)
-Feb 26 | [Sebastian Ares de Parga Regalado](https://scholar.google.com/citations?user=B8SG5UAAAAAJ&hl=en) | International Centre for Numerical Methods in Engineering | Nonlinear Projection-Based Model Order Reduction with Machine Learning Regression | [link]()
+Feb 26 | [Sebastian Ares de Parga Regalado](https://scholar.google.com/citations?user=B8SG5UAAAAAJ&hl=en) | International Centre for Numerical Methods in Engineering | Nonlinear Projection-Based Model Order Reduction with Machine Learning Regression | [link](https://youtu.be/4jbwvUb_KXI)
 Feb 19 | [Su Jiang](https://cee.engineering.cmu.edu/directory/bios/jiang-su.html) | Carnegie Mellon University | Generative Models for Data Assimilation in Subsurface Flow | [link](https://youtu.be/ZpcP3bnJzxc?si=i3A9k-vgNeYzObNh)
 Jan 22 | [Balint Kaszas](https://profiles.stanford.edu/balint-kaszas) | Stanford University | Invariant Manifold-Based Nonlinear Model Reduction for Fluid Dynamics | [link](https://youtu.be/n5Tcjb5Kthk)
 
