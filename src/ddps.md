@@ -40,7 +40,7 @@ institute, [LEADS](https://www.pnnl.gov/projects/leads-institute).
 ## Scheduled Talks in 2026 (_in California time_)
 When           | Speaker        |  Institution      | Title                         | WebEx
 -------------- | -------------- | ----------------- | ----------------------------- | -----
-Oct 15 11am-12pm | [Ruchi Sandilya](https://ruchi-sandilya.github.io/sandilyaruchi/) | Cornell University | TBD | [link](https://llnlfed.webex.com/llnlfed/j.php?MTID=m363d422d74d6d16de176ca9a13447fac)
+Oct 15 11am-12pm | [Ruchi Sandilya](https://ruchi-sandilya.github.io/sandilyaruchi/) | Weill Cornell Medicine | Contrastive Diffusion Alignment: Learning Structured Latents for Controllable Generation | [link](https://llnlfed.webex.com/llnlfed/j.php?MTID=m363d422d74d6d16de176ca9a13447fac)
 <!--- TBD | []() | | TBD | [link]() -->
 <!--- TBD | [Karen Veroy-Grepl](https://www.tue.nl/en/research/researchers/karen-veroy-grepl/) | Eindhoven University | TBD | [link]() -->
 
