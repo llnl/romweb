@@ -40,15 +40,15 @@ institute, [LEADS](https://www.pnnl.gov/projects/leads-institute).
 ## Scheduled Talks in 2026 (_in California time_)
 When           | Speaker        |  Institution      | Title                         | WebEx
 -------------- | -------------- | ----------------- | ----------------------------- | -----
+Nov 13 11am-12pm | [Florian Marquardt](https://mpl.mpg.de/divisions/marquardt-division) | Max Planck Institute | Agentic AI for the Exploration of Physical Systems | [link](https://llnlfed.webex.com/llnlfed/j.php?MTID=m4235d7c5092d7e1dc466ff175fdc90b1)
 Dec 11 11am-12pm | [Graham Neubig](https://www.phontron.com/) | Carnegie Mellon University | TBD | [link](https://llnlfed.webex.com/llnlfed/j.php?MTID=m8eb34a79462d614981bfd46108203e5a)
-Nov 13 11am-12pm | [Florian Marquardt](https://mpl.mpg.de/divisions/marquardt-division) | Max Planck Institute | TBD | [link](https://llnlfed.webex.com/llnlfed/j.php?MTID=m4235d7c5092d7e1dc466ff175fdc90b1)
-Oct 15 11am-12pm | [Ruchi Sandilya](https://ruchi-sandilya.github.io/sandilyaruchi/) | Weill Cornell Medicine | Contrastive Diffusion Alignment: Learning Structured Latents for Controllable Generation | [link](https://llnlfed.webex.com/llnlfed/j.php?MTID=m363d422d74d6d16de176ca9a13447fac)
 <!--- TBD | []() | | TBD | [link]() -->
 <!--- TBD | [Karen Veroy-Grepl](https://www.tue.nl/en/research/researchers/karen-veroy-grepl/) | Eindhoven University | TBD | [link]() -->
 
 ## Past Talks in 2026
 Date      | Speaker        |  Institution      | Title                         | YouTube
 ---------- | -------------- | ----------------- | ----------------------------- | ---------
+Oct 15 | [Ruchi Sandilya](https://ruchi-sandilya.github.io/sandilyaruchi/) | Weill Cornell Medicine | Contrastive Diffusion Alignment: Learning Structured Latents for Controllable Generation | [link]()
 May 14 | [Youzuo Lin](https://datascience.unc.edu/person/youzuo-lin/) | The University of North Carolina at Chapel Hill | AI for Scientific Discovery: Learning Beyond Data in Computational Wave Imaging | [link](https://youtu.be/m6BaFCOlnMs?si=NOB5COYzu2Uhals0)
 May 7 | [Simon Mak](https://sites.google.com/view/simonmak/home) | Duke University | Advances in ML surrogate modeling for complex physical simulations | [link](https://youtu.be/PDbU3smguZY?si=XSj2hRXzFqLEnuXC)
 Feb 26 | [Sebastian Ares de Parga Regalado](https://scholar.google.com/citations?user=B8SG5UAAAAAJ&hl=en) | International Centre for Numerical Methods in Engineering | Nonlinear Projection-Based Model Order Reduction with Machine Learning Regression | [link](https://youtu.be/4jbwvUb_KXI)
